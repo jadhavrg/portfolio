@@ -12,7 +12,7 @@ function Intro() {
             <div className='introContent'>
                 <span className='hello'>Hello</span>
                 <span className='introText'>I'm <span className='introName'>Rushikesh</span> <br/> Full Stack Developer</span>
-                <p className='introPara'>I have completed BSC in Software Engineering at Collage <br></br> Of Computer Science and Information Techanology, Latur<br></br> in 2022 with 84%.</p>
+                <p className='introPara'>I have completed BSC in Software Engineering at College <br></br> Of Computer Science and Information Technology, Latur<br></br> in 2022 with 84%.</p>
                 <Link> <button className='btn'> <img src={btnImg} alt='' className='btnImg'/> <a href={<Resume/>} > Resume </a> </button></Link>
             </div>
             {/* <img src={bg} alt='Profile' className='bg' /> */}
