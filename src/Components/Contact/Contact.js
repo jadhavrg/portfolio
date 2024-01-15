@@ -5,7 +5,7 @@ import Clients2 from './../../Assects/clients2.png'
 import Clients3 from './../../Assects/clients3.png'
 import Clients4 from './../../Assects/clients4.png'
 import Instagram from './../../Assects/instagram.png'
-import Facebook from './../../Assects/facebook.png'
+import Facebook from './../../Assects/github.png'
 import LinkedIn from './../../Assects/linkedin.png'
 import Youtube from './../../Assects/youtube.png'
 import emailjs from '@emailjs/browser';
@@ -52,9 +52,9 @@ function Contact() {
                 <button type='submit' value="Send" className='submitBtn' >Submit</button>
             </form>
             <div className='links'>
+                <a href='https://github.com/jadhavrg'> <img src={Facebook} alt='Facebook' className='link' /></a>
                 <a href='https://instagram.com/_mr._r_j_?igshid=OGQ5ZDc2ODk2ZA=='><img src={Instagram} alt='Instagram' className='link' /></a>
-                <img src={Facebook} alt='Facebook' className='link' />
-                <img src={LinkedIn} alt='LinkedIn' className='link' />
+                <a href='www.linkedin.com/in/rushikeshjadhav12'><img src={LinkedIn} alt='LinkedIn' className='link' /></a>
                 <img src={Youtube} alt='Youtube' className='link' />
             </div>
         </div>
