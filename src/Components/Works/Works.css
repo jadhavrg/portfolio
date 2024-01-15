@@ -97,17 +97,25 @@
     box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
 }
 
-/* .worksBtn a
-{ */
-    /* text-decoration: none; */
-    /* color: black; */
-/* } */
 
-@media screen and (max-width:585px) 
-{
-    .worksImg
-    {
-        height: 48vw;
-    }    
-}
+@media (max-width: 768px) {
+    .worksImg {
+      margin-left: 5%;
+    }
+  
+    .worksBtn {
+      margin: 1rem 2%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .worksImg {
+      margin-left: 2%;
+    }
+  
+    .worksBtn {
+      margin: 1rem 1%;
+      padding: 0.5rem 1.5rem;
+    }
+  }
 
