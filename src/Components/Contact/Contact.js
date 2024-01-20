@@ -29,7 +29,7 @@ function Contact() {
 
   return (
     <section id='contactPage'>
-        <div id='clients'>
+        {/* <div id='clients'>
             <h1 className='contactPageTitle'>My Clients</h1>
             <p className='clientsDesc'>
                 I have had the opportunity to work with a diverse group of companies.
@@ -41,10 +41,10 @@ function Contact() {
                 <img src={Clients3} alt='Clients3' className='clientsImg'/>
                 <img src={Clients4} alt='Clients4' className='clientsImg'/>
             </div>
-        </div>
+        </div> */}
         <div id='contact'>
             <h1 className='contactPageTitle'>Contact Me</h1>
-            <span className='contactDesc'>Please fill out the form below to discuss any work opportunities.</span>
+            <span className='contactDesc'>Whether you want to get in touch, talk about a project collaboration, or just say hi, I'd love to hear from you.</span>
             <form className='contactForm' ref={form} onSubmit={sendEmail}>
                 <input type='text' className='name' required placeholder='Your Name' name='your_name' />
                 <input type='email' className='email' required placeholder='Your Email' name='your_email'/>
